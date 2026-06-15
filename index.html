@@ -629,6 +629,7 @@
     .delay-2 { transition-delay: .2s; }
     .delay-3 { transition-delay: .3s; }
     .delay-4 { transition-delay: .4s; }
+    .delay-5 { transition-delay: .5s; }
 
     /* ─── RESPONSIVE ──────────────────────────────────────── */
     @media (max-width: 768px) {
@@ -754,7 +755,9 @@
     <div class="section-line reveal"></div>
     <div class="skills-grid">
       <div class="skill-card reveal delay-1">
-        <div class="skill-icon">🌐</div>
+        <div class="skill-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
         <div class="skill-cat">Networking</div>
         <div class="skill-name">Network Infrastructure</div>
         <div class="skill-pills">
@@ -768,7 +771,9 @@
         </div>
       </div>
       <div class="skill-card reveal delay-2">
-        <div class="skill-icon">🔒</div>
+        <div class="skill-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
         <div class="skill-cat">Security</div>
         <div class="skill-name">Cybersecurity</div>
         <div class="skill-pills">
@@ -780,7 +785,9 @@
         </div>
       </div>
       <div class="skill-card reveal delay-3">
-        <div class="skill-icon">💻</div>
+        <div class="skill-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
         <div class="skill-cat">Development</div>
         <div class="skill-name">Software Engineering</div>
         <div class="skill-pills">
@@ -793,7 +800,9 @@
         </div>
       </div>
       <div class="skill-card reveal delay-4">
-        <div class="skill-icon">🛠</div>
+        <div class="skill-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
         <div class="skill-cat">Infrastructure</div>
         <div class="skill-name">Tools &amp; Platforms</div>
         <div class="skill-pills">
@@ -862,7 +871,7 @@
         </div>
         <div class="proj-body">
           <div class="proj-kind">Personal Project · Full-Stack</div>
-          <div class="proj-title">Niche House Cinema</div>
+          <div class="proj-title">Cinema Ticket Reservation & Management System</div>
           <p class="proj-desc">
             Cinema booking web app built for XAMPP with PHP, MySQL, and vanilla JavaScript. Includes movie discovery, seat booking, auth, admin CRUD, and booking/dashboard management.
           </p>
@@ -892,6 +901,25 @@
             <span class="stack-chip">OSHI</span>
             <span class="stack-chip">SQLite</span>
             <span class="stack-chip">Heuristics</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/Akram-Labidi/SecureVault" target="_blank" rel="noopener noreferrer" class="proj-card reveal delay-5" style="display:flex;flex-direction:column;cursor:pointer;">
+        <div class="proj-img-wrap">
+          <img class="proj-img" src="SecureVault.png" alt="SecureVault Password Manager" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <div class="proj-kind">Personal Project · Security</div>
+          <div class="proj-title">SecureVault — Password Manager
+            <svg style="display:inline-block;margin-left:.4rem;vertical-align:middle;opacity:.5" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </div>
+          <p class="proj-desc">
+            Secure desktop password manager with JavaFX interface. Features AES-256-GCM encryption, PBKDF2 key derivation, BCrypt hashing, and local encrypted SQLite storage for maximum privacy and offline accessibility.
+          </p>
+          <div class="proj-stack">
+            <span class="stack-chip">Java</span>
+            <span class="stack-chip">JavaFX</span>
+            <span class="stack-chip">SQLite</span>
           </div>
         </div>
       </a>
